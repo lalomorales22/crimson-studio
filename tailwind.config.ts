@@ -9,6 +9,9 @@ export default {
   ],
   theme: {
   	extend: {
+      boxShadow: {
+        'crimson': '0 4px 6px rgba(139, 0, 0, 0.1)',
+      },
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
