@@ -11,8 +11,12 @@ import {
   Film,
   Code,
   Sparkles,
-  UserCircle, 
-  Settings,
+  Share2,
+  MessagesSquare,
+  Mail,
+  MessageCircle,
+  ShoppingCart,
+  Users,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import {
@@ -29,9 +33,13 @@ const navItems = [
   { href: "/software-creator", label: "Software Creator", icon: BrainCircuit },
   { href: "/gallery", label: "Unified Gallery", icon: GalleryThumbnails },
   { href: "/ide", label: "Mini IDE", icon: Code },
-  { type: "divider", key: "div1" }, 
-  { href: "/profile", label: "User Profile", icon: UserCircle },
-  { href: "/settings", label: "Settings", icon: Settings },
+  { type: "divider", key: "divMainFunctionalityEnd" }, 
+  { href: "/social-posting", label: "Social Posting", icon: Share2 },
+  { href: "/chat-rooms", label: "Chat Rooms", icon: MessagesSquare },
+  { href: "/email", label: "Email", icon: Mail },
+  { href: "/messages", label: "Messages", icon: MessageCircle },
+  { href: "/shopping", label: "Shopping", icon: ShoppingCart },
+  { href: "/community", label: "Community", icon: Users },
 ];
 
 export function SidebarNav() {
