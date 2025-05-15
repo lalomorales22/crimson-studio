@@ -1,4 +1,5 @@
 # Crimson Studio
+<img width="994" alt="Screenshot 2025-05-15 at 12 22 58 AM" src="https://github.com/user-attachments/assets/683c8001-8c0b-4d07-9b55-b388e085b4ff" />
 
 This project, named Crimson Studio, is a Next.js application built within Firebase Studio and is hosted on GitHub at [lalomorales22/crimson-studio](https://github.com/lalomorales22/crimson-studio). It showcases a variety of AI-powered features and utilizes ShadCN components for the user interface.
 
