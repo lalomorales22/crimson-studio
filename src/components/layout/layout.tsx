@@ -22,7 +22,7 @@ import { LogOut, Settings, UserCircle, LayoutGrid } from "lucide-react";
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
     <div className="min-h-screen bg-black flex items-center justify-center p-4 sm:p-8">
-      <div className="w-full max-w-screen-xl h-[calc(100vh-theme(spacing.16))] rounded-2xl shadow-2xl overflow-hidden flex bg-background">
+      <div className="relative w-full max-w-screen-xl h-[calc(100vh-theme(spacing.16))] rounded-2xl shadow-2xl overflow-hidden flex bg-background">
         <SidebarProvider defaultOpen>
           <Sidebar className="border-sidebar-border" collapsible="icon" variant="floating">
             <SidebarHeader className="p-4">
