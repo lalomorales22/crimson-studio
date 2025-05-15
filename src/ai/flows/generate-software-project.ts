@@ -51,7 +51,7 @@ Example projectFiles for a simple website:
 Example projectFiles for a python script:
 [
   { "path": "{{{projectName}}}.py", "content": "# Main script for {{{projectName}}}\\nprint('Hello from {{{projectName}}}!')" },
-  { "path": "README.md", "content": "# {{{projectName}}\\nDescribed as: {{{description}}}" }
+  { "path": "README.md", "content": "# {{{projectName}}}\\nDescribed as: [Detailed project description goes here]" }
 ]
 `,
 });
@@ -78,3 +78,4 @@ const generateSoftwareProjectFlow = ai.defineFlow(
     };
   }
 );
+
