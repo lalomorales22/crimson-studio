@@ -5,7 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
   Home,
-  MessageCircle,
+  BrainCircuit,
   GalleryThumbnails,
   Mic,
   Film,
@@ -26,10 +26,10 @@ const navItems = [
   { href: "/text-generation", label: "Text Generation", icon: Sparkles },
   { href: "/audio-studio", label: "Audio Studio", icon: Mic },
   { href: "/video-toolkit", label: "Video Toolkit", icon: Film },
-  { href: "/chatbot", label: "AI Chatbot", icon: MessageCircle },
+  { href: "/software-creator", label: "Software Creator", icon: BrainCircuit },
   { href: "/gallery", label: "Unified Gallery", icon: GalleryThumbnails },
   { href: "/ide", label: "Mini IDE", icon: Code },
-  { type: "divider", key: "div1" }, // Optional divider
+  { type: "divider", key: "div1" }, 
   { href: "/profile", label: "User Profile", icon: UserCircle },
   { href: "/settings", label: "Settings", icon: Settings },
 ];

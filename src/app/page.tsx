@@ -1,6 +1,7 @@
+
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Sparkles, Mic, Film, MessageCircle, GalleryThumbnails, Code } from "lucide-react";
+import { Sparkles, Mic, Film, BrainCircuit, GalleryThumbnails, Code } from "lucide-react";
 import Link from "next/link";
 
 export default function HomePage() {
@@ -13,7 +14,7 @@ export default function HomePage() {
         </p>
       </header>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
         <FeatureCard
           icon={<Sparkles className="h-8 w-8 text-accent" />}
           title="AI Text Generation"
@@ -33,10 +34,10 @@ export default function HomePage() {
           link="/video-toolkit"
         />
         <FeatureCard
-          icon={<MessageCircle className="h-8 w-8 text-accent" />}
-          title="AI Chatbot"
-          description="Interact with an intelligent AI assistant for insights and conversations."
-          link="/chatbot"
+          icon={<BrainCircuit className="h-8 w-8 text-accent" />}
+          title="Software Creator"
+          description="Design and generate code for software applications with AI assistance."
+          link="/software-creator"
         />
         <FeatureCard
           icon={<GalleryThumbnails className="h-8 w-8 text-accent" />}
@@ -68,7 +69,7 @@ interface FeatureCardProps {
 
 function FeatureCard({ icon, title, description, link }: FeatureCardProps) {
   return (
-    <Card className="shadow-crimson hover:shadow-lg transition-shadow duration-300 border-border">
+    <Card className="shadow-crimson hover:shadow-lg transition-shadow duration-300 border-border max-w-xs">
       <CardHeader className="items-center text-center">
         {icon}
         <CardTitle className="mt-2 text-2xl text-primary">{title}</CardTitle>
