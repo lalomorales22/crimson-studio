@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button";
 import { Code, Play, Trash2, AlertTriangle, Loader2, Maximize, Minimize } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import { ScrollArea } from "@/components/ui/scroll-area";
+import { Label } from "@/components/ui/label";
 
 export default function IdePage() {
   const [code, setCode] = useState<string>("console.log('Hello from Crimson Canvas Mini IDE!');\n\n// Try some math or string manipulation\nconst a = 10;\nconst b = 20;\nconsole.log(`The sum of ${a} and ${b} is ${a + b}.`);\n\n// Example of an error\n// console.error('This is a test error message.');\n\n// Example of a warning\n// console.warn('This is a test warning message.');\n\n// Try accessing a DOM element (will likely result in an error in this environment)\n// const body = document.querySelector('body');\n// console.log(body);");
